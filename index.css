@@ -1,0 +1,246 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+body {
+
+    background-color: #222831;
+    color: #030303;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: #030303;
+    overflow: hidden;
+}
+
+nav  {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 50px 0 50px 35px;
+    
+}
+
+a {
+    font-size: 25px;
+    color: black;
+}
+
+a:hover {
+
+    color: rgb(151, 151, 55)
+}
+
+.paragrafo-abordagem {
+  
+    text-align: center;
+    font-size: 18px;
+    margin: 0 150px 50px 150px;
+    color: #FFFECE;
+   
+    
+}
+
+.Fotos-de-clientes {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.fotos {
+
+width: 350px;
+height: 350px;
+border-radius: 15px;
+}
+
+.paragrafo-video {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.paragrafo-unha{
+
+    text-align: start;
+    font-size: 18px;
+    margin: 0 150px 50px 150px;
+    color: #FFFECE;
+    text-decoration: underline;
+      
+
+}
+#manicure{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 35px;
+margin-top: 120px;
+}
+#foto-silvia{
+
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+
+}
+
+#saudacao-sobre {
+
+    text-align: center;
+    font-size: 18px;
+    margin: 0 150px 50px 150px;
+    color: #000000;
+    background-color: antiquewhite;
+    padding: 25px;
+
+}
+
+#footer-saudacao {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+}
+
+.icone {
+
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+}
+@media (max-width: 660px){
+
+ header {
+
+    overflow: hidden;
+ }
+
+ #saudacao-sobre {
+
+    text-align: center;
+    font-size: 18px;
+    margin: 0 95px 50px 95px;
+    color: #000000;
+    background-color: antiquewhite;
+    padding: 25px;
+
+}
+
+.paragrafo-video {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+
+}
+#manicure{
+
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 35px;
+margin-top: 120px;
+flex-direction: column;
+}
+
+}
+
+
+
+@media (min-width: 690px) {
+
+    .Fotos-de-clientes {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 18px;
+        margin-bottom: 50px;
+        overflow: hidden;
+
+    }
+
+    
+@media (min-width: 1000px) {
+    .Fotos-de-clientes {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-items: center;
+        gap: 25px;
+        margin-bottom: 50px;
+        overflow: hidden;
+
+    }
+
+}
+    #saudacao-sobre {
+
+        text-align: center;
+        font-size: 18px;
+        margin: 0 95px 50px 95px;
+        color: #000000;
+        background-color: antiquewhite;
+        padding: 25px;
+    
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    #saudacao-sobre {
+
+        text-align: center;
+        font-size: 18px;
+        margin: 0 250px 50px 250px;
+        color: #000000;
+        background-color: antiquewhite;
+        padding: 25px;}
+
+}
+
+@media (min-width: 1000px) {
+
+    #saudacao-sobre {
+
+        text-align: center;
+        font-size: 18px;
+        margin: 0 350px 50px 350px;
+        color: #000000;
+        background-color: antiquewhite;
+        padding: 25px;
+
+}
+
+#footer-principal {
+
+    height: 50px;
+}
